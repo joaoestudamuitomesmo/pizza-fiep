@@ -1,15 +1,15 @@
-import { useState } from 'react'
-import Header from "./components/Header"
+import Header from "./components/Header";
+import Hero from "./components/Hero";
+import Diferenciais from "./components/Diferenciais";
 
-function App() {
-
+function App(){
   return (
     <>
-      <Header/>
+      <Header />
+      <Hero />
+      <Diferenciais />
     </>
   )
 }
 
-export default App
-
-
+export default App;
