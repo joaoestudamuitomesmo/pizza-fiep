@@ -157,16 +157,26 @@ body{
 }
 
 .card {
-  width: 200px;
+  padding: 30px 20px;
+  width: 180px;
+  margin: 0 20px;
+
+  background: #0d4616;
+  border-radius: 12px;
+
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
 
-  background: #0d4616;
-  border-radius: 12px;
+  transition: 0.3s;
+}
+
+.card:hover{
+    transform: translateY(-8px);
 }
 
 .card img {
   width: 180px;
+  margin-bottom: 20px;
 }
